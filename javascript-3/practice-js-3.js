@@ -1,12 +1,12 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
-//CODE HERE
+const groceries = ['steak', 'mangoes', 'salmon']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
+const yourName = 'Brittney'
 
 //////////////////STEP 3////////////////////
 /*
@@ -16,7 +16,10 @@
     the function would return 'Joseph's Grocery List'.
 */
 
-//CODE HERE
+const setGroceryListTitle = (x) => {
+return `${x}'s Grocery List`
+
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -26,7 +29,10 @@
     that takes care of some of the work for getting your page to display correctly.
 */
 
-//CODE HERE
+const addItem =(item)=>{
+ groceries.push(item)   
+
+}
 
 //////////////////STEP 5////////////////////
 /*
@@ -36,7 +42,9 @@
     Then, invoke the displayData() function inside of your removeItem function.
 */
 
-//CODE HERE
+const removeItem = (index)=> {
+groceries.splice(3, 1)    
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -49,7 +57,19 @@
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-//CODE HERE
+const checkGroceryCount = () => { 
+
+    if(groceries.length > 5){
+     return 'That looks like a big trip'   
+    } else if (groceries.length === 1) {
+        return '1 item'
+    } else if (groceries.length > 0  && groceries.length < 6){
+        const NUMBEROFGROCERIES = groceries.length
+        return `${NUMBEROFGROCERIES} items`
+    }
+
+}
+
 
 
 //////////////////Check out your code!////////////////////

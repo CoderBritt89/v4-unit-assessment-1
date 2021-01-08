@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = `Git is software that allows the user to save versions of their code as they progress through their projects.`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = `GitHub is where every version of the user's code in their project is saved. GitHub also makes it easy to collaborate with multiple people on the same project.`
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+    description: 'This initializes a new git repository in your code editor.',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,11 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+description: 'This clones code from another github repository',
+code: 'git clone'
+
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {
+    description: 'This command shows you which files are in the staging area',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +67,11 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {
+description: 'This git command adds changes that have been made in your working directory to the staging area',
+code: 'git add . '
+
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +79,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+    description: 'This command saves the modified files to git',
+    code: 'git commit -m "commit note goes here" '
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +90,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+const addRemote = {
+    description: 'This adds a newly created github repository to the project file that has been started.',
+    code: '$ git remote add origin https://github.com/user/repo.git'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +101,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: 'This command pushes the saved changes of your code to your Github repository',
+    code: 'git push'
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(214, 142, 154);
+    padding: 5%;
+}
+
+nav {
+    font-size: 1.25rem;
+    display: inline;
+    word-spacing: .5em;
+    
+}
+
+.middleSection {
+box-sizing: border-box;
+border: 5px black dotted;
+padding: 3%;
+
+}

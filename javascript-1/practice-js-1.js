@@ -31,13 +31,13 @@ const sum = (num1, num2) => {
   If 'data' is a falsy value, return a false boolean.
 */
 
-// const trueOrFalse = (data) => {
-// if (data === true){
-//   return true
-// }  else {
-//   return false
-// }
-// }
+const trueOrFalse = (data) => {
+if (data === true){
+  return true
+}  else {
+  return false
+}
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -49,13 +49,13 @@ const sum = (num1, num2) => {
 
 
 
-// const oddChecker = (num) => {
-//   if ((num / 1) > 0 ) {
-//     return 'the number is odd'
-//   } else if (num %2 === 0) {
-//     return
-//   }
-// }
+const oddChecker = (num) => {
+  if ((num / 1) > 0 ) {
+    return 'the number is odd'
+  } else if (num % 2 === 0) {
+    return "the number is even"
+  } 
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,8 +64,8 @@ const sum = (num1, num2) => {
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-const iLove = (name, love) => {
- return `${name} loves ${love}` 
+function iLove(name, love) {
+  return `${name} loves ${love}`;
 }
 
 
@@ -116,8 +116,8 @@ const me = {
 
 //////////////////PROBLEM 12////////////////////
 /* 
-  Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
-  which will be an array of numbers. 
+  Create a function called 'bigOrSmall' that takes in one parameter, 'arr', DONE
+  which will be an array of numbers. DONE
   Inside of the bigOrSmall function, create a new array called 'answers'. 
   Then, loop over the passed in arr parameter, and check to see if the number in the
   array is GREATER than 100. 
@@ -128,17 +128,22 @@ const me = {
 */
 
 
-// const bigOrSmall = (arr) => {
-// const answers = []
-// for (i=0; i < arr.length; i++){
-// if (i > 100 ) {
-//   return answers.push('big')
-// } else if (i <= 100){
-//   return answers.push('small')
-// }
-// }
-// return answers
-// }
+const bigOrSmall = (arr) => {
+
+const numbers = [1, 2, 3, 4, 5, 101, 150, 170] 
+const answers = []
+
+for (i=0; i < numbers.length; i++){
+if (i > 100 ) {
+  return answers.push('big')
+} else if (i <= 100){
+  return answers.push('small')
+  
+}
+}
+return answers
+}
+
 
 //////////////////PROBLEM 13////////////////////
 /* 

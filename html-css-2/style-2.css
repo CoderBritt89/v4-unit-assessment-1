@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(140, 255, 236);
+    padding: 2%;
+}
+
+h2 {
+    margin: 1%;
+}
+
+.topBox, .middleBox, .bottomBox {
+    border: 1px black dotted;
+    padding: 2%;
+}
+
+#purple {
+    height: 8vh;
+    width: 15vh;
+    background-color: rgba(64, 3, 92, 0.925);
+    border: 2px red solid;
+    display: inline-block;
+}
+
+#blue {
+    background-color: blue;
+    box-shadow: gray;
+    height: 10vh;
+    width: 10vh;
+    margin-left: 5%;
+    display: inline-block;
+    
+}
+
+#pink {
+    height: 15vh;
+    width: 15vh;
+    background-color: pink;
+    border: 1px black solid;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#topCirc, #middleCirc, #bottomCirc {
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+
+#topCirc {
+    height: 6vh;
+    width: 6vh;
+    margin-left: 2%;
+}
+
+#carrot {
+    margin: 45%;
+}
+
+#middleCirc {
+    height: 8vh;
+    width: 8vh;
+    margin-left: 1.0%;
+}
+
+#bottomCirc {
+    height: 10vh;
+    width: 10vh;
+}
+
+
+#tanSquare {
+    height: 25vh;
+    width: 25vh;
+    background-color: tan;
+
+}
+
+#greenCirc {
+
+    height: 20vh;
+    width: 20vh;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+#fishTank {
+    background-color: rgb(190, 77, 96);
+    height: 11vh;
+    width: 11vh;
+    padding: 25%;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-left: 20%;
+    display: inline-block;
+    clear: both;
+    color: white;
+    vertical-align: center;
+}
+
+#fish {
+   background-color: blue;
+   border-radius: 50%; 
+   height: 7vh;
+   width: 7vh;
+   margin-bottom: 30%;
+   clear: right;
+}
+
+#orangeFish { 
+    height: 5vh;
+    width: 5vh;
+
+}

@@ -5,43 +5,45 @@
 
 h1 {
     background-color: rgb(140, 255, 236);
-    padding: 2%;
+    padding: 1%;
 }
 
 h2 {
-    margin: 1%;
+   margin-top: 1%; 
+   font-size: 16px;
 }
 
 .topBox, .middleBox, .bottomBox {
     border: 1px black dotted;
-    padding: 2%;
+    padding: .5%
 }
 
 #purple {
-    height: 8vh;
-    width: 15vh;
+    height: 60px;
+    width: 150px;
     background-color: rgba(64, 3, 92, 0.925);
     border: 2px red solid;
     display: inline-block;
+    margin-right: 5%;
 }
 
 #blue {
     background-color: blue;
-    box-shadow: gray;
-    height: 10vh;
-    width: 10vh;
-    margin-left: 5%;
+    box-shadow: 4px 4px 3px black;
+    height: 60px;
+    width: 60px;
+    margin-right: 5%;
     display: inline-block;
     
 }
 
 #pink {
-    height: 15vh;
-    width: 15vh;
-    background-color: pink;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(214, 121, 136);
     border: 1px black solid;
     display: inline-block;
-    margin-left: 5%;
+  
 }
 
 #topCirc, #middleCirc, #bottomCirc {
